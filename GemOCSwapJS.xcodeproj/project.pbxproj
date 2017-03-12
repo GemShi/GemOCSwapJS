@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFA09F561E75638A003DABFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F551E75638A003DABFA /* main.m */; };
+		DFA09F591E75638A003DABFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F581E75638A003DABFA /* AppDelegate.m */; };
+		DFA09F5C1E75638A003DABFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F5B1E75638A003DABFA /* ViewController.m */; };
+		DFA09F5F1E75638A003DABFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA09F5D1E75638A003DABFA /* Main.storyboard */; };
+		DFA09F611E75638A003DABFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA09F601E75638A003DABFA /* Assets.xcassets */; };
+		DFA09F641E75638A003DABFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA09F621E75638A003DABFA /* LaunchScreen.storyboard */; };
+		DFA09F6F1E75638A003DABFA /* GemOCSwapJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F6E1E75638A003DABFA /* GemOCSwapJSTests.m */; };
+		DFA09F7A1E75638A003DABFA /* GemOCSwapJSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F791E75638A003DABFA /* GemOCSwapJSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFA09F6B1E75638A003DABFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFA09F491E75638A003DABFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA09F501E75638A003DABFA;
+			remoteInfo = GemOCSwapJS;
+		};
+		DFA09F761E75638A003DABFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFA09F491E75638A003DABFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA09F501E75638A003DABFA;
+			remoteInfo = GemOCSwapJS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFA09F511E75638A003DABFA /* GemOCSwapJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemOCSwapJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA09F551E75638A003DABFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFA09F571E75638A003DABFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFA09F581E75638A003DABFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFA09F5A1E75638A003DABFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFA09F5B1E75638A003DABFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFA09F5E1E75638A003DABFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFA09F601E75638A003DABFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFA09F631E75638A003DABFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFA09F651E75638A003DABFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA09F6A1E75638A003DABFA /* GemOCSwapJSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemOCSwapJSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA09F6E1E75638A003DABFA /* GemOCSwapJSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemOCSwapJSTests.m; sourceTree = "<group>"; };
+		DFA09F701E75638A003DABFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA09F751E75638A003DABFA /* GemOCSwapJSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemOCSwapJSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA09F791E75638A003DABFA /* GemOCSwapJSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemOCSwapJSUITests.m; sourceTree = "<group>"; };
+		DFA09F7B1E75638A003DABFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFA09F4E1E75638A003DABFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA09F671E75638A003DABFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA09F721E75638A003DABFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFA09F481E75638A003DABFA = {
+			isa = PBXGroup;
+			children = (
+				DFA09F531E75638A003DABFA /* GemOCSwapJS */,
+				DFA09F6D1E75638A003DABFA /* GemOCSwapJSTests */,
+				DFA09F781E75638A003DABFA /* GemOCSwapJSUITests */,
+				DFA09F521E75638A003DABFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFA09F521E75638A003DABFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFA09F511E75638A003DABFA /* GemOCSwapJS.app */,
+				DFA09F6A1E75638A003DABFA /* GemOCSwapJSTests.xctest */,
+				DFA09F751E75638A003DABFA /* GemOCSwapJSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFA09F531E75638A003DABFA /* GemOCSwapJS */ = {
+			isa = PBXGroup;
+			children = (
+				DFA09F571E75638A003DABFA /* AppDelegate.h */,
+				DFA09F581E75638A003DABFA /* AppDelegate.m */,
+				DFA09F5A1E75638A003DABFA /* ViewController.h */,
+				DFA09F5B1E75638A003DABFA /* ViewController.m */,
+				DFA09F5D1E75638A003DABFA /* Main.storyboard */,
+				DFA09F601E75638A003DABFA /* Assets.xcassets */,
+				DFA09F621E75638A003DABFA /* LaunchScreen.storyboard */,
+				DFA09F651E75638A003DABFA /* Info.plist */,
+				DFA09F541E75638A003DABFA /* Supporting Files */,
+			);
+			path = GemOCSwapJS;
+			sourceTree = "<group>";
+		};
+		DFA09F541E75638A003DABFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFA09F551E75638A003DABFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFA09F6D1E75638A003DABFA /* GemOCSwapJSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFA09F6E1E75638A003DABFA /* GemOCSwapJSTests.m */,
+				DFA09F701E75638A003DABFA /* Info.plist */,
+			);
+			path = GemOCSwapJSTests;
+			sourceTree = "<group>";
+		};
+		DFA09F781E75638A003DABFA /* GemOCSwapJSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFA09F791E75638A003DABFA /* GemOCSwapJSUITests.m */,
+				DFA09F7B1E75638A003DABFA /* Info.plist */,
+			);
+			path = GemOCSwapJSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFA09F501E75638A003DABFA /* GemOCSwapJS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA09F7E1E75638A003DABFA /* Build configuration list for PBXNativeTarget "GemOCSwapJS" */;
+			buildPhases = (
+				DFA09F4D1E75638A003DABFA /* Sources */,
+				DFA09F4E1E75638A003DABFA /* Frameworks */,
+				DFA09F4F1E75638A003DABFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GemOCSwapJS;
+			productName = GemOCSwapJS;
+			productReference = DFA09F511E75638A003DABFA /* GemOCSwapJS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFA09F691E75638A003DABFA /* GemOCSwapJSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA09F811E75638A003DABFA /* Build configuration list for PBXNativeTarget "GemOCSwapJSTests" */;
+			buildPhases = (
+				DFA09F661E75638A003DABFA /* Sources */,
+				DFA09F671E75638A003DABFA /* Frameworks */,
+				DFA09F681E75638A003DABFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA09F6C1E75638A003DABFA /* PBXTargetDependency */,
+			);
+			name = GemOCSwapJSTests;
+			productName = GemOCSwapJSTests;
+			productReference = DFA09F6A1E75638A003DABFA /* GemOCSwapJSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFA09F741E75638A003DABFA /* GemOCSwapJSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA09F841E75638A003DABFA /* Build configuration list for PBXNativeTarget "GemOCSwapJSUITests" */;
+			buildPhases = (
+				DFA09F711E75638A003DABFA /* Sources */,
+				DFA09F721E75638A003DABFA /* Frameworks */,
+				DFA09F731E75638A003DABFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA09F771E75638A003DABFA /* PBXTargetDependency */,
+			);
+			name = GemOCSwapJSUITests;
+			productName = GemOCSwapJSUITests;
+			productReference = DFA09F751E75638A003DABFA /* GemOCSwapJSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFA09F491E75638A003DABFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GemShi;
+				TargetAttributes = {
+					DFA09F501E75638A003DABFA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DFA09F691E75638A003DABFA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFA09F501E75638A003DABFA;
+					};
+					DFA09F741E75638A003DABFA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFA09F501E75638A003DABFA;
+					};
+				};
+			};
+			buildConfigurationList = DFA09F4C1E75638A003DABFA /* Build configuration list for PBXProject "GemOCSwapJS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFA09F481E75638A003DABFA;
+			productRefGroup = DFA09F521E75638A003DABFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFA09F501E75638A003DABFA /* GemOCSwapJS */,
+				DFA09F691E75638A003DABFA /* GemOCSwapJSTests */,
+				DFA09F741E75638A003DABFA /* GemOCSwapJSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFA09F4F1E75638A003DABFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA09F641E75638A003DABFA /* LaunchScreen.storyboard in Resources */,
+				DFA09F611E75638A003DABFA /* Assets.xcassets in Resources */,
+				DFA09F5F1E75638A003DABFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA09F681E75638A003DABFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA09F731E75638A003DABFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFA09F4D1E75638A003DABFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA09F5C1E75638A003DABFA /* ViewController.m in Sources */,
+				DFA09F591E75638A003DABFA /* AppDelegate.m in Sources */,
+				DFA09F561E75638A003DABFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA09F661E75638A003DABFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA09F6F1E75638A003DABFA /* GemOCSwapJSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA09F711E75638A003DABFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA09F7A1E75638A003DABFA /* GemOCSwapJSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFA09F6C1E75638A003DABFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFA09F501E75638A003DABFA /* GemOCSwapJS */;
+			targetProxy = DFA09F6B1E75638A003DABFA /* PBXContainerItemProxy */;
+		};
+		DFA09F771E75638A003DABFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFA09F501E75638A003DABFA /* GemOCSwapJS */;
+			targetProxy = DFA09F761E75638A003DABFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFA09F5D1E75638A003DABFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA09F5E1E75638A003DABFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFA09F621E75638A003DABFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA09F631E75638A003DABFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFA09F7C1E75638A003DABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFA09F7D1E75638A003DABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFA09F7F1E75638A003DABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemOCSwapJS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemOCSwapJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFA09F801E75638A003DABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemOCSwapJS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemOCSwapJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFA09F821E75638A003DABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemOCSwapJSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemOCSwapJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemOCSwapJS.app/GemOCSwapJS";
+			};
+			name = Debug;
+		};
+		DFA09F831E75638A003DABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemOCSwapJSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemOCSwapJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemOCSwapJS.app/GemOCSwapJS";
+			};
+			name = Release;
+		};
+		DFA09F851E75638A003DABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemOCSwapJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemOCSwapJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemOCSwapJS;
+			};
+			name = Debug;
+		};
+		DFA09F861E75638A003DABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemOCSwapJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemOCSwapJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemOCSwapJS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFA09F4C1E75638A003DABFA /* Build configuration list for PBXProject "GemOCSwapJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA09F7C1E75638A003DABFA /* Debug */,
+				DFA09F7D1E75638A003DABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA09F7E1E75638A003DABFA /* Build configuration list for PBXNativeTarget "GemOCSwapJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA09F7F1E75638A003DABFA /* Debug */,
+				DFA09F801E75638A003DABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFA09F811E75638A003DABFA /* Build configuration list for PBXNativeTarget "GemOCSwapJSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA09F821E75638A003DABFA /* Debug */,
+				DFA09F831E75638A003DABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFA09F841E75638A003DABFA /* Build configuration list for PBXNativeTarget "GemOCSwapJSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA09F851E75638A003DABFA /* Debug */,
+				DFA09F861E75638A003DABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFA09F491E75638A003DABFA /* Project object */;
+}

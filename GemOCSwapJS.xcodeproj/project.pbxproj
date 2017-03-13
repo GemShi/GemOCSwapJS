@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF842E711E75A80D00B42004 /* GemJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF842E701E75A80D00B42004 /* GemJSObject.m */; };
 		DFA09F561E75638A003DABFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F551E75638A003DABFA /* main.m */; };
 		DFA09F591E75638A003DABFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F581E75638A003DABFA /* AppDelegate.m */; };
 		DFA09F5C1E75638A003DABFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F5B1E75638A003DABFA /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		DFA09F641E75638A003DABFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA09F621E75638A003DABFA /* LaunchScreen.storyboard */; };
 		DFA09F6F1E75638A003DABFA /* GemOCSwapJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F6E1E75638A003DABFA /* GemOCSwapJSTests.m */; };
 		DFA09F7A1E75638A003DABFA /* GemOCSwapJSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F791E75638A003DABFA /* GemOCSwapJSUITests.m */; };
+		DFA09F891E7597E1003DABFA /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F881E7597E1003DABFA /* WebViewController.m */; };
+		DFA09F8B1E759890003DABFA /* js.html in Resources */ = {isa = PBXBuildFile; fileRef = DFA09F8A1E759890003DABFA /* js.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF842E6F1E75A80D00B42004 /* GemJSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GemJSObject.h; sourceTree = "<group>"; };
+		DF842E701E75A80D00B42004 /* GemJSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GemJSObject.m; sourceTree = "<group>"; };
 		DFA09F511E75638A003DABFA /* GemOCSwapJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemOCSwapJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA09F551E75638A003DABFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFA09F571E75638A003DABFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		DFA09F751E75638A003DABFA /* GemOCSwapJSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemOCSwapJSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA09F791E75638A003DABFA /* GemOCSwapJSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemOCSwapJSUITests.m; sourceTree = "<group>"; };
 		DFA09F7B1E75638A003DABFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA09F871E7597E1003DABFA /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		DFA09F881E7597E1003DABFA /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		DFA09F8A1E759890003DABFA /* js.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = js.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +109,15 @@
 		DFA09F531E75638A003DABFA /* GemOCSwapJS */ = {
 			isa = PBXGroup;
 			children = (
+				DFA09F8A1E759890003DABFA /* js.html */,
 				DFA09F571E75638A003DABFA /* AppDelegate.h */,
 				DFA09F581E75638A003DABFA /* AppDelegate.m */,
 				DFA09F5A1E75638A003DABFA /* ViewController.h */,
 				DFA09F5B1E75638A003DABFA /* ViewController.m */,
+				DFA09F871E7597E1003DABFA /* WebViewController.h */,
+				DFA09F881E7597E1003DABFA /* WebViewController.m */,
+				DF842E6F1E75A80D00B42004 /* GemJSObject.h */,
+				DF842E701E75A80D00B42004 /* GemJSObject.m */,
 				DFA09F5D1E75638A003DABFA /* Main.storyboard */,
 				DFA09F601E75638A003DABFA /* Assets.xcassets */,
 				DFA09F621E75638A003DABFA /* LaunchScreen.storyboard */,
@@ -249,6 +262,7 @@
 				DFA09F641E75638A003DABFA /* LaunchScreen.storyboard in Resources */,
 				DFA09F611E75638A003DABFA /* Assets.xcassets in Resources */,
 				DFA09F5F1E75638A003DABFA /* Main.storyboard in Resources */,
+				DFA09F8B1E759890003DABFA /* js.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF842E711E75A80D00B42004 /* GemJSObject.m in Sources */,
 				DFA09F5C1E75638A003DABFA /* ViewController.m in Sources */,
 				DFA09F591E75638A003DABFA /* AppDelegate.m in Sources */,
 				DFA09F561E75638A003DABFA /* main.m in Sources */,
+				DFA09F891E7597E1003DABFA /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +523,7 @@
 				DFA09F801E75638A003DABFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFA09F811E75638A003DABFA /* Build configuration list for PBXNativeTarget "GemOCSwapJSTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				DFA09F831E75638A003DABFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFA09F841E75638A003DABFA /* Build configuration list for PBXNativeTarget "GemOCSwapJSUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				DFA09F861E75638A003DABFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

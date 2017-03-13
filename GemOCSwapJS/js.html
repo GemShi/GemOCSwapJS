@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <title>test javascript</title>
+            </head>
+    <body>
+        <div>
+            <!--
+             调用方法（并传入参数,若block中无参，则此参数无用）
+             -->
+            <button onclick="JSCallOCWithBlock('JS调用OC方法，并传参（通过block）');">JS_OC_Block</button>
+            <br>
+            <!--
+             调用对象的nslog方法（并传入参数），DNMethod对象需要传入自定义的NSObject对象（遵循JSExport协议）
+             -->
+            <button onclick="JSCallOCWithObject.nslog('JS调用OC方法，并传参（通过GemJSObject对象）');">JS_OC_Object</button>
+        </div>
+    </body>
+</html>

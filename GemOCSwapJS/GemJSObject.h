@@ -11,6 +11,8 @@
 
 @protocol GemJSObjectExport <JSExport>
 
+@property int x;
+
 -(void)nslog:(NSString *)str;
 
 @end

@@ -75,7 +75,8 @@
 }
 
 #pragma mark - 加载本地.js文件
-void loadScript(JSContext *context, NSString *fileName){
+-(void)loadScriptWithContext:(JSContext *)context AndFileName:(NSString *)fileName
+{
     NSString *filePath = [NSString stringWithFormat:@"%@/JS/%@",[[NSBundle mainBundle] resourcePath],fileName];
     NSString *script = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
     [context evaluateScript:script];

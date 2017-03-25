@@ -10,8 +10,11 @@
 
 @implementation GemJSObject
 
+@synthesize x;
+
 -(void)nslog:(NSString *)str
 {
+    NSLog(@"%d",self.x * self.x);
     NSLog(@"OC的nslog方法被调用：%@",str);
 }
 

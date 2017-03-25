@@ -106,6 +106,7 @@
     //JS调OC方法三
     JSContext *context2 = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     GemJSObject *jsObject = [[GemJSObject alloc]init]; //创造一个对象
+    jsObject.x = 10;
     context2[@"JSCallOCWithObject"] = jsObject;	//将对象注入JS运行环境
     
     /**

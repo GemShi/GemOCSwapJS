@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2E6A971E86426A00B9DE3E /* Point3D.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E6A961E86426A00B9DE3E /* Point3D.m */; };
 		DF842E711E75A80D00B42004 /* GemJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF842E701E75A80D00B42004 /* GemJSObject.m */; };
 		DFA09F561E75638A003DABFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F551E75638A003DABFA /* main.m */; };
 		DFA09F591E75638A003DABFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA09F581E75638A003DABFA /* AppDelegate.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF2E6A951E86426A00B9DE3E /* Point3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point3D.h; sourceTree = "<group>"; };
+		DF2E6A961E86426A00B9DE3E /* Point3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Point3D.m; sourceTree = "<group>"; };
 		DF842E6F1E75A80D00B42004 /* GemJSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GemJSObject.h; sourceTree = "<group>"; };
 		DF842E701E75A80D00B42004 /* GemJSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GemJSObject.m; sourceTree = "<group>"; };
 		DFA09F511E75638A003DABFA /* GemOCSwapJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemOCSwapJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +121,8 @@
 				DFA09F881E7597E1003DABFA /* WebViewController.m */,
 				DF842E6F1E75A80D00B42004 /* GemJSObject.h */,
 				DF842E701E75A80D00B42004 /* GemJSObject.m */,
+				DF2E6A951E86426A00B9DE3E /* Point3D.h */,
+				DF2E6A961E86426A00B9DE3E /* Point3D.m */,
 				DFA09F5D1E75638A003DABFA /* Main.storyboard */,
 				DFA09F601E75638A003DABFA /* Assets.xcassets */,
 				DFA09F621E75638A003DABFA /* LaunchScreen.storyboard */,
@@ -290,6 +295,7 @@
 				DF842E711E75A80D00B42004 /* GemJSObject.m in Sources */,
 				DFA09F5C1E75638A003DABFA /* ViewController.m in Sources */,
 				DFA09F591E75638A003DABFA /* AppDelegate.m in Sources */,
+				DF2E6A971E86426A00B9DE3E /* Point3D.m in Sources */,
 				DFA09F561E75638A003DABFA /* main.m in Sources */,
 				DFA09F891E7597E1003DABFA /* WebViewController.m in Sources */,
 			);

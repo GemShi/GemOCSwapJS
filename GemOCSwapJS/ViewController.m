@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import "WebViewController.h"
+#import <JavaScriptCore/JavaScriptCore.h>
+#import "Point3D.h"
+
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
@@ -26,6 +29,12 @@
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(clickToJS) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    //JSCore的一些用法
+    [self JSCore];
+    
+    //JSExport
+    [self point3D];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,10 +42,43 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - 跳转到JS页面
 -(void)clickToJS
 {
     WebViewController *webView = [[WebViewController alloc]init];
     [self presentViewController:webView animated:YES completion:nil];
+}
+
+#pragma mark - JSCore
+-(void)JSCore
+{
+    //JSContext上下文，提供运行环境
+    JSContext *context = [[JSContext alloc]init];
+    //从JS环境里取函数或者变量
+    JSValue *value = [context evaluateScript:@"1 + 2"];
+    double result = [value toDouble];
+    NSLog(@"%f",result);
+}
+
+#pragma mark - JSExport
+-(void)point3D
+{
+    JSContext *context = [[JSContext alloc]init];
+    Point3D *point3D = [[Point3D alloc]initWithContext:context];
+    point3D.x = 1;
+    point3D.y = 2;
+    point3D.z = 3;
+    context[@"point3D"] = point3D;
+    NSString *script = @"point3D.length()";
+    JSValue *value = [context evaluateScript:script];
+    NSLog(@"%@  %f",script,[value toDouble]);
+}
+
+#pragma mark - 加载本地.js文件
+void loadScript(JSContext *context, NSString *fileName){
+    NSString *filePath = [NSString stringWithFormat:@"%@/JS/%@",[[NSBundle mainBundle] resourcePath],fileName];
+    NSString *script = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+    [context evaluateScript:script];
 }
 
 @end

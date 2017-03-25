@@ -107,6 +107,10 @@
     JSContext *context2 = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     GemJSObject *jsObject = [[GemJSObject alloc]init]; //创造一个对象
     context2[@"JSCallOCWithObject"] = jsObject;	//将对象注入JS运行环境
+    
+    /**
+     方法二、三就相当于把原生的代码块或者对象注入JSContext，在JS执行的时候调用OC原生的方法
+     */
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
